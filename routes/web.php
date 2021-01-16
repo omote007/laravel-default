@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/sftp','SftpController@index');
-Route::get('/laravelsftp','LaravelSftpController@index');
+Route::get('/top','TopController@index');
+Route::post('/top','TopController@index');

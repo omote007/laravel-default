@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Storage;
 use League\Flysystem\Filesystem;
 use League\Flysystem\Sftp\SftpAdapter;
+use App\Util\CommonUtil as CommonUtil;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -16,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        app()->bind('CommonUtil', CommonUtil::class);
     }
 
     /**
