@@ -10,10 +10,15 @@
     "require": {
         "php": "^7.2.5|^8.0",
         "fideloper/proxy": "^4.4",
+        "hashids/hashids": "^4.1",
+        "jolicode/jolinotif": "^2.2",
         "laravel/framework": "^6.20",
         "laravel/tinker": "^2.5",
         "league/flysystem-sftp": "~1.0",
-        "nesbot/carbon": "^2.43"
+        "lorddashme/php-image-squeezer": "^1.0",
+        "nesbot/carbon": "^2.43",
+        "pusher/pusher-php-server": "~3.0.3",
+        "verbalexpressions/php-verbal-expressions": "^1.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
