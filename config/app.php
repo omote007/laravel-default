@@ -161,7 +161,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Maknz\Slack\SlackServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -226,7 +225,6 @@ return [
         'Util' => \App\Facades\CommonUtilFacade::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Slack' => Maknz\Slack\Facades\Slack::class,
     ],
 
 ];
